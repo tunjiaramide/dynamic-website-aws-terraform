@@ -41,3 +41,5 @@ variable "private_data_subnet_az2_cidr" {
   description = "Private Data Subnet AZ2 cidr block"
   type        = string
 }
+
+
