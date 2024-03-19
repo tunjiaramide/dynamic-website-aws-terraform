@@ -81,3 +81,11 @@ variable "storage_size" {
   description = "select size"
   type        = number
 }
+
+
+#alb variables
+variable "ssl_certificate_arn" {
+  default     = "arn:aws:acm:us-east-1:121090182602:certificate/0ff7aeee-e648-4bb1-95b7-116168be24d9"
+  description = "ssl certificate arn"
+  type        = string
+}
