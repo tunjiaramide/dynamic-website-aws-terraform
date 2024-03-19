@@ -98,3 +98,30 @@ variable "operator_email" {
   type        = string
 }
 
+#auto scaling group variables
+variable "launch_template_name" {
+  default     = "dev-launch-template"
+  description = "name of launch template"
+  type        = string
+}
+
+variable "ec2_image_id" {
+  default     = "ami-0d7a109bf30624c99"
+  description = "id of the ami"
+  type        = string
+}
+
+variable "ec2_instance_type" {
+  default     = "t2.micro"
+  description = "ec2 instance type"
+  type        = string
+}
+
+variable "ec2_keypair_name" {
+  default     = "mern"
+  description = "name of the ec2 key pair"
+  type        = string
+}
+
+
+
