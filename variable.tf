@@ -125,3 +125,18 @@ variable "ec2_keypair_name" {
 
 
 
+#route53 variables
+variable "domain_name" {
+  default     = "adetunjiaramide.com"
+  description = "domain name"
+  type        = string
+}
+
+variable "record_name" {
+  default     = "test"
+  description = "sub domain name"
+  type        = string
+}
+
+
+
